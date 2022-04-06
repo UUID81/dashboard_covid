@@ -38,7 +38,11 @@ Voici les graphiques avec leur requêtes:
 SELECT sum(people_fully_vaccinated), country FROM country_vaccinations GROUP BY country having sum(people_fully_vaccinated);
 
 ![grapfcarte](https://user-images.githubusercontent.com/90393606/161998881-386f10fa-da11-47fb-a0f2-cf4819aa37a6.PNG)
-![image](https://user-images.githubusercontent.com/90393606/161998935-8581d7f0-ea6e-4742-a747-298783efb55c.png)
+
+SELECT people_vaccinated, country FROM country_vaccinations
+WHERE country = 'France';
+
+
 
 
 
